@@ -42,10 +42,6 @@ small {
     top: 0;
 }
 
-.unfixed img {
-    opacity: 0;
-}
-
 .nav a {
     text-decoration: none;
 }
@@ -58,7 +54,7 @@ small {
 }
 
 .nav .logo {
-    width: 7rem;
+    width: 12rem;
     cursor: pointer;
 }
 
@@ -95,7 +91,7 @@ small {
     padding-top: 3rem;
     background-color: var(--light);
     position: absolute;
-    top: 6.5rem;
+    top: 9.4rem;
     left: 0;
     opacity: 0;
     visibility: hidden;
@@ -116,7 +112,7 @@ small {
     justify-content: end;
     align-items: center;
     gap: 1rem;
-    height: 37vh;
+    height: 30vh;
 }
 
 .nav-overlay .overlay-text a {
@@ -149,7 +145,7 @@ small {
     background-color: var(--primary);
     margin-top: 6rem;
     padding-bottom: 1rem;
-    background-image: linear-gradient(to bottom, #0029, #0029), url('../images/20240619_192529.jpg');
+    background-image: linear-gradient(to bottom, #0029, #0029), url('../images/ocean-banner.png');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -176,9 +172,8 @@ small {
 
 .upcoming-events {
     padding: 2rem 0;
-    background-image: linear-gradient(to bottom, #0029, #0029), url('../images/20240619_194713.jpg');
+    background-image: linear-gradient(to bottom, #0029, #0029), url('../images/ocean-events.png');
     background-size: cover;
-    background-position: top;
     color: var(--light);
 }
 
@@ -389,7 +384,7 @@ small {
     }
 
     .nav-items .nav-item {
-        padding: 1.5rem 1rem;
+        padding: 2rem 1rem;
     }
 
     .nav-overlay .overlay-text {
